@@ -1,0 +1,25 @@
+Estrutura
+
+pastas
+  - pacotes - tem as biblotecas
+  - scripts - todos .py que nao estao em fichieros, sao scripts
+  - temp - guarda ficheiros temporarios
+  - templates - guarda os templates do bdm
+  - venv
+
+ficheiros
+  - app.py
+  - auth.py
+  - celery_app.py
+  - config.json
+  - db.py
+  - dw_status.py
+  - gestor_lookup.py
+  - job_store.py
+  - nssm - baixar para configuracao no servidor
+  - run app.txt
+  - runner.py
+  - star_streamlit_service - servico para iniciar o streamlit
+  - tasks.py
+  - upload_util.py
+  - users.json

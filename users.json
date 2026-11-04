@@ -1,0 +1,935 @@
+{
+  "admin": {
+    "username": "admin",
+    "nome": "Administrador",
+    "password_hash": "$2b$12$cLPsBH2F.AKxt7Cb8A/n7elETuxmsNh4NrIebdkRcq6tThhhSTAp.",
+    "superuser": true,
+    "relatorios": [],
+    "activo": true
+  },
+  "m001654": {
+    "username": "m001654",
+    "nome": "Moham",
+    "password_hash": "$2b$12$fgFtNhhVbW/scpamsNM.XOd7Flx8d5g1H7KBtbJxhLVyLIyNYYHRm",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "TESTE",
+      "TABS TEMP"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null
+  },
+  "m001877": {
+    "username": "m001877",
+    "nome": "M001877",
+    "password_hash": "$2b$12$snotBHftcOl5J3PqEB.aFeqgn9YALqqy/.NZkNdbHeGvZ5LmAH5ee",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "TESTE",
+      "TABS TEMP"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null
+  },
+  "m001193": {
+    "username": "m001193",
+    "nome": "M001193",
+    "password_hash": "$2b$12$ru2HUDfeyuTQxmuIzRB8k.EvCPE/g0zqTmmcHPtPk71k5jlhyt7Xe",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "TESTE",
+      "TABS TEMP"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null
+  },
+  "m001175": {
+    "username": "m001175",
+    "nome": "M001175",
+    "password_hash": "$2b$12$klwDfYA5ky9/zmExk0UP4eaE9qLyNgfbn/fwV8jLkGETmjKkczC8K",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "TESTE",
+      "TABS TEMP"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null
+  },
+  "m001748": {
+    "username": "m001748",
+    "nome": "M001748",
+    "password_hash": "$2b$12$NHlVXITfRbCF2iNp3TPM5Oo5SU2hP8JfjSLXeXxBzkfTtOnR2mxLe",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "TESTE",
+      "TABS TEMP"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null
+  },
+  "m000835": {
+    "username": "m000835",
+    "nome": "M000835",
+    "password_hash": "$2b$12$gqVo9ZUCdVQruGWctKLsaepqYeKJ4yUwdw4K8526AvFuFl0mMIJ/O",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "TESTE",
+      "TABS TEMP"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null
+  },
+  "m000519": {
+    "username": "m000519",
+    "nome": "M000519",
+    "password_hash": "$2b$12$0zPbr4AuRqzCywi4YY8EN.dmrnr1e4Qyeo3ekFp4GY2vqvzy3Zyay",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "TESTE",
+      "TABS TEMP"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null
+  },
+  "m001722": {
+    "username": "m001722",
+    "nome": "M001722",
+    "password_hash": "$2b$12$X7eDGJ3MwriBG26OI1mI8O3rQo7OzxU.j00PZAkRaBlL/kEztqbWK",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "TESTE",
+      "TABS TEMP"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null
+  },
+  "m001088": {
+    "username": "m001088",
+    "nome": "M001088",
+    "password_hash": "$2b$12$Q7P4W3Gca5NZaMiQpffivuC1sMr1CJkaowZpiIbf732HBsJa7TSAm",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "TESTE",
+      "TABS TEMP"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null
+  },
+  "m000459": {
+    "username": "m000459",
+    "nome": "M000459",
+    "password_hash": "$2b$12$DuiKZZtfts/r06n9h0cHFuX.V02n9mbxe0ZDNC22yp5g/KNhcMzsq",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "TESTE",
+      "TABS TEMP"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null
+  },
+  "m001560": {
+    "username": "m001560",
+    "nome": "M001560",
+    "password_hash": "$2b$12$wacS6BK0RqKEpYrW45BrjOvVwySzVEXA4EScGSKAotM9auC3aom1G",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "TESTE",
+      "TABS TEMP"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null
+  },
+  "m001845": {
+    "username": "m001845",
+    "nome": "Hérica Mutolo",
+    "password_hash": "$2b$12$Em03.il.Kt8S9lR9PDbxDujA8/Rl.UxOBWi4NV8xmquIs8HW5wi3u",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "TESTE"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DIG"
+  },
+  "m001846": {
+    "username": "m001846",
+    "nome": "Fernando Maposse",
+    "password_hash": "$2b$12$jQ5ZuQ9mMvUPyE1ckuRPyeKrotNHtt9IL6TQjGx04X1lmjBOIDtvu",
+    "superuser": false,
+    "relatorios": [
+      "transaccoes_canal",
+      "clientes_ib",
+      "saldos_medios",
+      "clientes_m",
+      "domiciliacao_oic",
+      "contas_encerradas"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DMCC"
+  },
+  "m001875": {
+    "username": "m001875",
+    "nome": "Nália Sumbana",
+    "password_hash": "$2b$12$y/9VWtWleSimC/L5c87cXeQRdvHH2aaH5EvSyKlI3Sb83HEn7H0Tu",
+    "superuser": false,
+    "relatorios": [
+      "ccbs",
+      "modelo1",
+      "modelo2",
+      "modelo3",
+      "modelo4",
+      "modelo5",
+      "extracto_contas_do",
+      "extracto_contas_dp",
+      "Mapa_9",
+      "seq_2",
+      "mapa_5a",
+      "mapa_1b",
+      "mapa_7a",
+      "mapa_7b",
+      "mapa_depositos_distrito"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "CC"
+  },
+  "m001881": {
+    "username": "m001881",
+    "nome": "Carlos Cossa",
+    "password_hash": "$2b$12$nHGNMauRBqA/3LMgHNeSKuEt3upwkKjc6gKDn9qcwSpl99wOOvyUi",
+    "superuser": false,
+    "relatorios": [
+      "comissoes_liquidas",
+      "juros_pagar_receber",
+      "margem_cambial",
+      "nr_transaccoes_balcoes",
+      "nr_transaccoes_clientes",
+      "saldos",
+      "rent_saldos_medios",
+      "saldos_medios_creditos_balcoes",
+      "volume_entradas",
+      "fecho_pos",
+      "mensalidade_pos",
+      "saldos_medios_pos",
+      "volume_entradas_pos",
+      "comissoes_cartoes"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "CC"
+  },
+  "m001865": {
+    "username": "m001865",
+    "nome": "Twayra Cassamo",
+    "password_hash": "$2b$12$/zr1wnV1yN4sOfyfdbuOQu52f42spfogPKW.Ve7.gsr79AnEzcXoG",
+    "superuser": false,
+    "relatorios": [
+      "comissoes_liquidas",
+      "juros_pagar_receber",
+      "margem_cambial",
+      "nr_transaccoes_balcoes",
+      "nr_transaccoes_clientes",
+      "saldos",
+      "rent_saldos_medios",
+      "saldos_medios_creditos_balcoes",
+      "volume_entradas",
+      "fecho_pos",
+      "mensalidade_pos",
+      "saldos_medios_pos",
+      "volume_entradas_pos",
+      "comissoes_cartoes"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "CC"
+  },
+  "m000981": {
+    "username": "m000981",
+    "nome": "Rosa Mahumane",
+    "password_hash": "$2b$12$.tQWN6eGhx.h1dYuvynzIuBDzxGVaLXt5KCm85/QHzXkOsCfbOpRW",
+    "superuser": false,
+    "relatorios": [
+      "comissoes_liquidas",
+      "juros_pagar_receber",
+      "margem_cambial",
+      "nr_transaccoes_balcoes",
+      "nr_transaccoes_clientes",
+      "saldos",
+      "rent_saldos_medios",
+      "saldos_medios_creditos_balcoes",
+      "volume_entradas",
+      "fecho_pos",
+      "mensalidade_pos",
+      "saldos_medios_pos",
+      "volume_entradas_pos",
+      "comissoes_cartoes"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "CC"
+  },
+  "m001733": {
+    "username": "m001733",
+    "nome": "Enzo Rodolfo",
+    "password_hash": "$2b$12$ifcstvHCj3z8sLFt1jRP2OKDNZiQZHkZ/iu/JZlATeMTI6zNYzeZq",
+    "superuser": false,
+    "relatorios": [
+      "ccbs",
+      "modelo1",
+      "modelo2",
+      "modelo3",
+      "modelo4",
+      "modelo5",
+      "extracto_contas_do",
+      "Mapa_9",
+      "seq_2",
+      "mapa_5a",
+      "mapa_1b",
+      "mapa_7a",
+      "mapa_7b",
+      "mapa_depositos_distrito"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "CC"
+  },
+  "m001021": {
+    "username": "m001021",
+    "nome": "Nérsio Rosário",
+    "password_hash": "$2b$12$CmvwRLXuHHZCQpkGsrNQSOhPfNxq5akg1G4EeIg5f5qf1GX6GJTNK",
+    "superuser": false,
+    "relatorios": [
+      "comissoes_liquidas",
+      "juros_pagar_receber",
+      "margem_cambial",
+      "nr_transaccoes_balcoes",
+      "nr_transaccoes_clientes",
+      "saldos",
+      "rent_saldos_medios",
+      "saldos_medios_creditos_balcoes",
+      "volume_entradas",
+      "fecho_pos",
+      "mensalidade_pos",
+      "saldos_medios_pos",
+      "volume_entradas_pos",
+      "ccbs",
+      "modelo1",
+      "modelo2",
+      "modelo3",
+      "modelo4",
+      "modelo5",
+      "Mapa_9",
+      "seq_2",
+      "mapa_5a",
+      "mapa_1b",
+      "mapa_7a",
+      "mapa_7b",
+      "comissoes_cartoes",
+      "mapa_depositos_distrito"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "CC"
+  },
+  "m001596": {
+    "username": "m001596",
+    "nome": "Luísa Nuvunga",
+    "password_hash": "$2b$12$vxTJBiZPvv3OwhT2YAcJ/uTf3E4KNjCl2DLZLsNIHsJbsrappCpbK",
+    "superuser": false,
+    "relatorios": [
+      "cliente_wo"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DRC"
+  },
+  "m000336": {
+    "username": "m000336",
+    "nome": "Jauaria Cabá",
+    "password_hash": "$2b$12$EqtxX4FQzy7Zxt0/sUyP5.s0CelZ6VUoYM8NWzsBMnBWWmn4Ed7Q6",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "pagamentos_cartao"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m000970": {
+    "username": "m000970",
+    "nome": "Stélio Moiane",
+    "password_hash": "$2b$12$wekBv.p6BawU3vWE7SPg9eCpTFs9pBDU83u21kgGirGNRvhuQZJaO",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "pagamentos_cartao"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m001453": {
+    "username": "m001453",
+    "nome": "Mahomed Danwo",
+    "password_hash": "$2b$12$Wq1OEyIk67GxzdaEjKwWT.SEv0DGZoP5fISuVqpeKMxlz96/8fWbi",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "pagamentos_cartao",
+      "match_lista_negra",
+      "saldos_contas_bd"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m001007": {
+    "username": "m001007",
+    "nome": "Vanessa Conceição",
+    "password_hash": "$2b$12$5BLIm34/5qg02MxkTO4aD.KTCxCTbdGFeChLE1dCjkCxx9pjJqbXK",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "pagamentos_cartao",
+      "match_lista_negra",
+      "saldos_contas_bd"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m000471": {
+    "username": "m000471",
+    "nome": "Vasco Chemane",
+    "password_hash": "$2b$12$ICoxU1fT6yQOxYdVzYydheCgu2RF/DIfU.1Z8HfCKT/B7gWlWbkUK",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "pagamentos_cartao"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m001581": {
+    "username": "m001581",
+    "nome": "Cremildo Mavuiango",
+    "password_hash": "$2b$12$HLFv6rj/h5p0g20EUNDt2.woWJwRgNZHp6Ll.wd/UhHujsxVm59Ei",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "pagamentos_cartao"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m000917": {
+    "username": "m000917",
+    "nome": "Maria Cossa",
+    "password_hash": "$2b$12$VKaGLMzAPcR.coZNNwE8xejP4Pz5Ez/whz7.Ou0MG2Us28azufDsu",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "pagamentos_cartao"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m000083": {
+    "username": "m000083",
+    "nome": "Eurídice Soares",
+    "password_hash": "$2b$12$qQxPSbWeSYh7CM/O10z0GOZIVM1PEqqgW5MYhEO4B0A7HC1MFITne",
+    "superuser": false,
+    "relatorios": [
+      "cartoes_bloqueados",
+      "pagamentos_cartao"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m000037": {
+    "username": "m000037",
+    "nome": "Alberto Mabota",
+    "password_hash": "$2b$12$96UGn3kcTV4XDzXCsW1.kOzbY.mA43XSd3sFnzWYotQ4LDfUluF82",
+    "superuser": false,
+    "relatorios": [
+      "movimentos_contas",
+      "saldos_contas",
+      "reporte_movimento_contas",
+      "reporte_saldo_contas"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m000453": {
+    "username": "m000453",
+    "nome": "Júlio Sevene",
+    "password_hash": "$2b$12$K6owYij.vhD8V4CRM69a9O4CUwDwOiKXPJxLkgRfYIX4i1cGKW1p2",
+    "superuser": false,
+    "relatorios": [
+      "movimentos_contas",
+      "saldos_contas",
+      "reporte_movimento_contas",
+      "reporte_saldo_contas"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m000460": {
+    "username": "m000460",
+    "nome": "Samussone Chilenge",
+    "password_hash": "$2b$12$ItEuGsSX.zZovhscW2drPeUbQQAjEvFBm/CWdnDJn49wqdv.RtSvK",
+    "superuser": false,
+    "relatorios": [
+      "movimentos_contas",
+      "saldos_contas",
+      "reporte_movimento_contas",
+      "reporte_saldo_contas"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m001915": {
+    "username": "m001915",
+    "nome": "Mario Magaia",
+    "password_hash": "$2b$12$bt4t4vDNRruv2xddYonLz.1lUr1bA7J9qh3ZoVtcRAyALetlGEHli",
+    "superuser": false,
+    "relatorios": [
+      "transaccoes_canal",
+      "clientes_ib",
+      "saldos_medios",
+      "clientes_m",
+      "domiciliacao_oic",
+      "contas_encerradas"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DMCC"
+  },
+  "m001206": {
+    "username": "m001206",
+    "nome": "Milton Chachine",
+    "password_hash": "$2b$12$uorPDmB.1.gIKY22X4tgye2U7NoqISREHI0W2kyT5UO1MlWZJJefa",
+    "superuser": false,
+    "relatorios": [
+      "menos_90",
+      "mais_90"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DRC"
+  },
+  "m001700": {
+    "username": "m001700",
+    "nome": "Iolanda Xavier",
+    "password_hash": "$2b$12$iGKD1HE9VlsIf9A8cZK9vOnNujOfgvRdhSKI.21nDEsdSBTqXzTOG",
+    "superuser": false,
+    "relatorios": [
+      "garantias_recebidas"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m001162": {
+    "username": "m001162",
+    "nome": "Abdulremane Carimo",
+    "password_hash": "$2b$12$p8c1YvPwxhCAl33Bx6HNH.N5SYCbO3h2n/5P1SCyTkESnTuJyg6Zq",
+    "superuser": false,
+    "relatorios": [
+      "operacoes",
+      "moza_ja_compensa"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DMCC"
+  },
+  "m001879": {
+    "username": "m001879",
+    "nome": "Jéssica Hassam",
+    "password_hash": "$2b$12$TfgLQa34rK5Otf9Y1zsEh.BmAnUJ6ENiAMvcFG6/XYdo6eGqcJpde",
+    "superuser": false,
+    "relatorios": [
+      "extracto_contas_do",
+      "extracto_contas_dp"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "Cont"
+  },
+  "m001884": {
+    "username": "m001884",
+    "nome": "Edson Guilundzo",
+    "password_hash": "$2b$12$iakVbvD9J7AOUXe0TD0gTOtZm.Fdtgi/LpCD0ZQi0YLA1jnwqVUPm",
+    "superuser": false,
+    "relatorios": [
+      "extracto_contas_do",
+      "extracto_contas_dp"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "Cont"
+  },
+  "m001765": {
+    "username": "m001765",
+    "nome": "Ionik Sicandar",
+    "password_hash": "$2b$12$aDGs4VWlpXWTpYyZZ7VwnuAcBpJWPSRLIhhBQurbDa8ktioPoWg1K",
+    "superuser": false,
+    "relatorios": [
+      "match_lista_negra"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m001450": {
+    "username": "m001450",
+    "nome": "Evaristo Nhassego",
+    "password_hash": "$2b$12$yU7OyuhNwY5nnt0Os3.dueHI4O5.h/dkkkPtiMU2jr6iGfssq.pPK",
+    "superuser": false,
+    "relatorios": [
+      "match_lista_negra"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m001889": {
+    "username": "m001889",
+    "nome": "Slávia Chin",
+    "password_hash": "$2b$12$h9eUQkYX7gXylQLkPjeBjetKWPnDu85MXY76i0qNsskpcRXwOiRX2",
+    "superuser": false,
+    "relatorios": [
+      "comissoes_liquidas",
+      "juros_pagar_receber",
+      "margem_cambial",
+      "nr_transaccoes_balcoes",
+      "nr_transaccoes_clientes",
+      "saldos",
+      "rent_saldos_medios",
+      "saldos_medios_creditos_balcoes",
+      "volume_entradas",
+      "fecho_pos",
+      "mensalidade_pos",
+      "saldos_medios_pos",
+      "volume_entradas_pos",
+      "ccbs"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "CC"
+  },
+  "m000722": {
+    "username": "m000722",
+    "nome": "António Ofiço",
+    "password_hash": "$2b$12$DOrBLpAjGUWQTzObs4o3FeyiIT6R9/wagqd/JfVOX76AgLzdKIJfO",
+    "superuser": false,
+    "relatorios": [
+      "match_lista_negra"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m000834": {
+    "username": "m000834",
+    "nome": "Edson Filipe",
+    "password_hash": "$2b$12$.Qt8NqjHCPiKmM/bhXxXY.m1XXFlPGJ4PYUzG0tTh0s13aQ.QpUg2",
+    "superuser": false,
+    "relatorios": [
+      "garantias_recebidas"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m000383": {
+    "username": "m000383",
+    "nome": "Vanessa Almeida",
+    "password_hash": "$2b$12$Iglk3VuOiJD9wePBciNS0ebVL6.EvmuHtUB/C1svEpPtuk1MDx5d6",
+    "superuser": false,
+    "relatorios": [
+      "garantias_recebidas"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m001344": {
+    "username": "m001344",
+    "nome": "Jessica Rombe",
+    "password_hash": "$2b$12$y.FSjIqjVDnMst0s4XHXXeV.6vimh7P/.TxujKqiYMcddMpLk1.OG",
+    "superuser": false,
+    "relatorios": [
+      "garantias_recebidas"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "rpa_moza": {
+    "username": "rpa_moza",
+    "nome": "RPA Moza",
+    "password_hash": "$2b$12$XaAHk03lY8Ox2rg76Ks7P.6u3YeNZ2A5jAIbbLwA.0vxs0rRnsGGy",
+    "superuser": false,
+    "relatorios": [
+      "garantias_recebidas"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DQOM"
+  },
+  "m001917": {
+    "username": "m001917",
+    "nome": "Marcia Cumbana",
+    "password_hash": "$2b$12$cDx1P4t0WtVISH2V7gArQepLFUoVTzpHcnwlgFTbJRq1NPtv9tcnW",
+    "superuser": false,
+    "relatorios": [
+      "comissoes_liquidas",
+      "juros_pagar_receber",
+      "margem_cambial",
+      "nr_transaccoes_balcoes",
+      "nr_transaccoes_clientes",
+      "rent_saldos_medios",
+      "volume_entradas",
+      "fecho_pos",
+      "mensalidade_pos",
+      "saldos_medios_pos",
+      "volume_entradas_pos"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "CC"
+  },
+  "m001684": {
+    "username": "m001684",
+    "nome": "Swee Zucule",
+    "password_hash": "$2b$12$DXCjecdYYjDTpnJ36IlfEeHRXR5iTevcKkOunizjJNh1GWsGEZpqK",
+    "superuser": false,
+    "relatorios": [
+      "comissoes_liquidas",
+      "juros_pagar_receber",
+      "margem_cambial",
+      "nr_transaccoes_balcoes",
+      "nr_transaccoes_clientes",
+      "saldos",
+      "rent_saldos_medios",
+      "saldos_medios_creditos_balcoes",
+      "volume_entradas",
+      "fecho_pos",
+      "mensalidade_pos",
+      "saldos_medios_pos",
+      "volume_entradas_pos",
+      "comissoes_cartoes"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "CC"
+  },
+  "m000604": {
+    "username": "m000604",
+    "nome": "Hélio Muiocha",
+    "password_hash": "$2b$12$eVdbK2LSw8LPN9JBVe6TW.bkEO4pML4fPIFLtyp9VglUykfBY1cqm",
+    "superuser": false,
+    "relatorios": [
+      "transaccoes_canal",
+      "clientes_ib",
+      "saldos_medios",
+      "clientes_m",
+      "domiciliacao_oic",
+      "contas_encerradas"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DMCC"
+  },
+  "m000763": {
+    "username": "m000763",
+    "nome": "Elis Bahule",
+    "password_hash": "$2b$12$D45.xlDWfJ4d58Yl1fKTnOpwnEkTMDTHfPabqOJJHEWrGdz3ZwzDO",
+    "superuser": false,
+    "relatorios": [
+      "operacoes",
+      "moza_ja_compensa"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DMCC"
+  },
+  "m001079": {
+    "username": "m001079",
+    "nome": "Sergio Mavale",
+    "password_hash": "$2b$12$3LMzbnME3RZ5QTF.i592WuYccaJGCcKFBWZJnxJycWdA4VXwS0HIO",
+    "superuser": false,
+    "relatorios": [
+      "extracto_users_1067_1879_1884"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "Cont"
+  },
+  "m001077": {
+    "username": "m001077",
+    "nome": "Zarina Ribeiro",
+    "password_hash": "$2b$12$07FmRvoxD8OVpV/Fcy2pdebCpE5fSvJV3MJvUgQtOuVpQocIjsA0y",
+    "superuser": false,
+    "relatorios": [
+      "extracto_contas_do",
+      "extracto_contas_dp"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "Cont"
+  },
+  "m001138": {
+    "username": "m001138",
+    "nome": "Luisa Simbine",
+    "password_hash": "$2b$12$CYDELZtkWSr2WPDUx2oiOO/.s9qlinyd.W0tR.bEJzrcdQNQF9gbO",
+    "superuser": false,
+    "relatorios": [
+      "dp_dop",
+      "creditos_do_relacionada"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "DOP"
+  },
+  "m001266": {
+    "username": "m001266",
+    "nome": "Tunisio Tchambule",
+    "password_hash": "$2b$12$5WxQ3WJWyDdmEvGtZEir3erBjNqsfksCdijlzVZeHI6WajPWodg5u",
+    "superuser": false,
+    "relatorios": [
+      "ccbs"
+    ],
+    "activo": true,
+    "tipo_acesso": "normal",
+    "cod_gestor": null,
+    "cod_un": null,
+    "departamento": "Cont"
+  }
+}

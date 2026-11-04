@@ -1,0 +1,6 @@
+python -m streamlit run "T:/Direcção de Informação de Gestão/16. Data Desk/Data Desk/BdM/file py/projeto/app.py"
+
+python -m streamlit run "C:\Users\M001781\Desktop\projeto\app.py"
+
+admin
+admin123

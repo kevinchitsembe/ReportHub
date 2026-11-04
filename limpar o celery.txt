@@ -1,0 +1,11 @@
+run cmd as admin:
+C:\Windows\system32>redis-cli
+127.0.0.1:6379> FLUSHDB
+
+
+"C:\Program Files\Redis\redis-cli.exe" FLUSHALL
+
+run Powershell as admin:
+procurar processos travados: Get-CimInstance Win32_Process | Where-Object { $_.Name -in 'python.exe','streamlit.exe' } | Select-Object ProcessId, ExecutablePath, CommandLine | Format-List
+limpar um a um: Stop-Process -Id 7124 -Force
+limpar tudo: Get-CimInstance Win32_Process | Where-Object { $_.Name -in 'python.exe','streamlit.exe' -and $_.CommandLine -match 'projeto' } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force }

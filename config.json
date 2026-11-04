@@ -1,0 +1,408 @@
+[
+  {
+    "id": "cartoes_bloqueados",
+    "titulo": "Mapa de Cartões Bancários Bloqueados para Pagamento sobre o Exterior",
+    "descricao": "Lista de cartões bloqueados numa data específica",
+    "script": "scripts/Mapa de Cartões Bancários Bloqueados para Pagamento sobre o Exterior.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "movimentos_contas",
+    "titulo": "Mapa de Movimento de Contas em Moeda Estrangeira",
+    "descricao": "Lista de Movimento de Contas em Moeda Estrangeira numa data específica",
+    "script": "scripts/Mapa de Movimento de Contas em Moeda Estrangeira.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "pagamentos_cartao",
+    "titulo": "Mapa de Reporte de Pagamentos via Cartão no Estrangeiro",
+    "descricao": "Lista de Pagamentos via Cartão numa data específica",
+    "script": "scripts/Mapa de Reporte de Pagamentos via Cartão.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "saldos_contas",
+    "titulo": "Mapa de Reporte dos Saldos das Contas em Moeda Estrangeira",
+    "descricao": "Inserir o último dia do mês desejado",
+    "script": "scripts/Mapa de Reporte dos Saldos das Contas em Moeda Estrangeira.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "comissoes_liquidas",
+    "titulo": "Rentabilidade de Clientes - Comissões Líquidas",
+    "descricao": "Comissões Líquidas",
+    "script": "scripts/Rentabilidade de Clientes - Comissões Líquidas.py",
+    "modo_data": "periodo_upload"
+  },
+  {
+    "id": "juros_pagar_receber",
+    "titulo": "Rentabilidade de Clientes - Juros a Pagar e Receber",
+    "descricao": "Juros a Pagar e Receber",
+    "script": "scripts/Rentabilidade de Clientes - Juros a Pagar e Receber.py",
+    "modo_data": "periodo_upload"
+  },
+  {
+    "id": "margem_cambial",
+    "titulo": "Rentabilidade de Clientes - Margem Cambial",
+    "descricao": "Margem Cambial",
+    "script": "scripts/Rentabilidade de Clientes - Margem Cambial.py",
+    "modo_data": "periodo_upload"
+  },
+  {
+    "id": "nr_transaccoes_balcoes",
+    "titulo": "Rentabilidade de Clientes - Número Transacções por Balcão",
+    "descricao": "Número Transacções por Balcão",
+    "script": "scripts/Rentabilidade de Clientes - Número Transacções Balcões.py",
+    "modo_data": "periodo_upload"
+  },
+  {
+    "id": "nr_transaccoes_clientes",
+    "titulo": "Rentabilidade de Clientes - Número Transacções por Cliente",
+    "descricao": "Número Transacções por Cliente",
+    "script": "scripts/Rentabilidade de Clientes - Número Transacções Clientes.py",
+    "modo_data": "periodo_upload"
+  },
+  {
+    "id": "saldos",
+    "titulo": "Rentabilidade de Clientes - Saldos",
+    "descricao": "Saldos",
+    "script": "scripts/Rentabilidade de Clientes - Saldos.py",
+    "modo_data": "periodo_upload"
+  },
+  {
+    "id": "rent_saldos_medios",
+    "titulo": "Rentabilidade de Clientes - Saldos Médios",
+    "descricao": "Saldos Médios",
+    "script": "scripts/Rentabilidade de Clientes - Saldos Médios.py",
+    "modo_data": "periodo_upload"
+  },
+  {
+    "id": "saldos_medios_creditos_balcoes",
+    "titulo": "Rentabilidade de Clientes - Saldos Médios Créditos Balcões",
+    "descricao": "Saldos Médios Créditos Balcões",
+    "script": "scripts/Rentabilidade de Clientes - Saldos Médios Créditos Balcões.py",
+    "modo_data": "periodo_upload"
+  },
+  {
+    "id": "volume_entradas",
+    "titulo": "Rentabilidade de Clientes - Volume de Entradas",
+    "descricao": "Volume de Entradas",
+    "script": "scripts/Rentabilidade de Clientes - Volume Entradas.py",
+    "modo_data": "periodo_upload"
+  },
+  {
+    "id": "TESTE",
+    "titulo": "TESTE",
+    "descricao": "TESTE",
+    "script": "scripts/TESTE.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "contas_irregulares_wf",
+    "titulo": "Contas Irregulares WF",
+    "descricao": "Contas Irregulares WF",
+    "script": "scripts/Contas Irregulares WF.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "eact_enact",
+    "titulo": "Eact Enact",
+    "descricao": "Eact Enact",
+    "script": "scripts/Eact Enact.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "fecho_pos",
+    "titulo": "Rentabilidade de POS - Fecho",
+    "descricao": "Fecho de POS",
+    "script": "scripts/Rentabilidade de POS - Fecho.py",
+    "modo_data": "periodo_upload"
+  },
+  {
+    "id": "mensalidade_pos",
+    "titulo": "Rentabilidade de POS - Mensalidade",
+    "descricao": "Mensalidade de POS",
+    "script": "scripts/Rentabilidade de POS - Mensalidade.py",
+    "modo_data": "periodo_upload"
+  },
+  {
+    "id": "saldos_medios_pos",
+    "titulo": "Rentabilidade de POS - Saldos Médios",
+    "descricao": "Saldos Médios de POS",
+    "script": "scripts/Rentabilidade de POS - Saldos Médios.py",
+    "modo_data": "periodo_upload"
+  },
+  {
+    "id": "volume_entradas_pos",
+    "titulo": "Rentabilidade de POS - Volume de Entradas",
+    "descricao": "Volume de Entradas POS",
+    "script": "scripts/Rentabilidade de POS - Volume de Entradas.py",
+    "modo_data": "periodo_upload"
+  },
+  {
+    "id": "operacoes",
+    "titulo": "Query Operações",
+    "descricao": "Operações",
+    "script": "scripts/Operações.py",
+    "modo_data": "upload_ficheiro"
+  },
+  {
+    "id": "transaccoes_canal",
+    "titulo": "Transacções Canal",
+    "descricao": "Transacções Canal",
+    "script": "scripts/Transacções Canal.py",
+    "modo_data": "periodo"
+  },
+  {
+    "id": "menos_90",
+    "titulo": "Crédito Vencido - Menos 90",
+    "descricao": "Menos 90",
+    "script": "scripts/Crédito Vencido - Menos 90.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "mais_90",
+    "titulo": "Crédito Vencido - Mais 90",
+    "descricao": "Mais 90",
+    "script": "scripts/Crédito Vencido - Mais 90.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "TABS TEMP",
+    "titulo": "TABS TEMP",
+    "descricao": "TABS TEMP",
+    "script": "scripts/TABS TEMP.py",
+    "modo_data": "periodo"
+  },
+  {
+    "id": "ccbs",
+    "titulo": "Extracto de Contas",
+    "descricao": "Extracto CCB",
+    "script": "scripts/CCB.py",
+    "modo_data": "periodo_numero"
+  },
+  {
+    "id": "modelo1",
+    "titulo": "Modelo de Fundo de Garantia de Déposito - Modelo 1",
+    "descricao": "Inserir o último dia do mês desejado",
+    "script": "scripts/FGD Modelo 1.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "modelo2",
+    "titulo": "Modelo de Fundo de Garantia de Déposito - Modelo 2",
+    "descricao": "Inserir o último dia do mês desejado",
+    "script": "scripts/FGD Modelo 2.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "modelo3",
+    "titulo": "Modelo de Fundo de Garantia de Déposito - Modelo 3",
+    "descricao": "Inserir o último dia do mês desejado",
+    "script": "scripts/FGD Modelo 3.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "modelo4",
+    "titulo": "Modelo de Fundo de Garantia de Déposito - Modelo 4",
+    "descricao": "Inserir o último dia do mês desejado",
+    "script": "scripts/FGD Modelo 4.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "modelo5",
+    "titulo": "Modelo de Fundo de Garantia de Déposito - Modelo 5",
+    "descricao": "Inserir o último dia do mês desejado",
+    "script": "scripts/FGD Modelo 5.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "clientes_ib",
+    "titulo": "Clientes IB",
+    "descricao": "Clientes IB",
+    "script": "scripts/Clientes IB.py",
+    "modo_data": "periodo"
+  },
+  {
+    "id": "saldos_medios",
+    "titulo": "Saldos Médios",
+    "descricao": "Saldos Médios",
+    "script": "scripts/Saldos Médios.py",
+    "modo_data": "periodo"
+  },
+  {
+    "id": "clientes_m",
+    "titulo": "Clientes M",
+    "descricao": "Clientes M",
+    "script": "scripts/Clientes M.py",
+    "modo_data": "periodo_upload"
+  },
+  {
+    "id": "domiciliacao_oic",
+    "titulo": "Domiciliação OIC",
+    "descricao": "Domiciliação OIC",
+    "script": "scripts/Domiciliação OIC.py",
+    "modo_data": "periodo"
+  },
+  {
+    "id": "cliente_wo",
+    "titulo": "Clientes Write-Off",
+    "descricao": "Pagamentos de créditos em Write-Off",
+    "script": "scripts/Clientes WO.py",
+    "modo_data": "periodo_upload"
+  },
+  {
+    "id": "extracto_contas_do",
+    "titulo": "Extracto de Contas DO",
+    "descricao": "Extracto",
+    "script": "scripts/Extracto de Contas DO.py",
+    "modo_data": "periodo_numero"
+  },
+  {
+    "id": "extracto_contas_dp",
+    "titulo": "Extracto de Contas DP",
+    "descricao": "Extracto",
+    "script": "scripts/Extracto de Contas DP.py",
+    "modo_data": "periodo_numero"
+  },
+  {
+    "id": "garantias_recebidas",
+    "titulo": "Garantias Recebidas",
+    "descricao": "Garantias",
+    "script": "scripts/Garantias Recebidas.py",
+    "modo_data": "char_sem_data"
+  },
+  {
+    "id": "Mapa_9",
+    "titulo": "Mapa 9 - Reporte das Novas Operações de Empréstimos realizados pelo Banco",
+    "descricao": "Inserir o primeiro dia do mês desejado",
+    "script": "scripts/Mapa 9 - Reporte das Novas Operações de Empréstimos realizados pelo Banco.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "seq_2",
+    "titulo": "Sequência 2",
+    "descricao": "Inserir o primeiro dia do mês desejado",
+    "script": "scripts/Sequência 2.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "reporte_movimento_contas",
+    "titulo": "Reporte de Movimento de Contas em Moeda Estrangeira",
+    "descricao": "Extracção sem template do BdM",
+    "script": "scripts/Reporte de Movimento de Contas em Moeda Estrangeira.py",
+    "modo_data": "periodo"
+  },
+  {
+    "id": "reporte_saldo_contas",
+    "titulo": "Reporte dos Saldos das Contas em Moeda Estrangeira",
+    "descricao": "Extracção sem template do BdM",
+    "script": "scripts/Reporte dos Saldos das Contas em Moeda Estrangeira.py",
+    "modo_data": "periodo"
+  },
+  {
+    "id": "match_lista_negra",
+    "titulo": "Match Lista Negra",
+    "descricao": "Lista Negra",
+    "script": "scripts/Match Lista Negra.py",
+    "modo_data": "upload_ficheiro"
+  },
+  {
+    "id": "mapa_5a",
+    "titulo": "Mapa 5a - Contas Bancárias",
+    "descricao": "Inserir o último dia do mês desejado",
+    "script": "scripts/Mapa 5a - Contas Bancárias.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "mapa_1b",
+    "titulo": "Mapa 1b - Operações por Agência Bancária",
+    "descricao": "Operações por Agência Bancária",
+    "script": "scripts/Mapa 1b - Operações por Agência Bancária.py",
+    "modo_data": "periodo"
+  },
+  {
+    "id": "mapa_7a",
+    "titulo": "Mapa 7a - Transacções de Mobile Banking",
+    "descricao": "Inserir o último dia do mês desejado",
+    "script": "scripts/Mapa 7a - Transacções efectuadas por clientes subscritores de mobile banking.py",
+    "modo_data": "simples_upload"
+  },
+  {
+    "id": "mapa_7b",
+    "titulo": "Mapa 7b - Transacções de Internet Banking",
+    "descricao": "Inserir o último dia do mês desejado",
+    "script": "scripts/Mapa 7b - Transacções efectuadas por clientes subscritores de internet banking.py",
+    "modo_data": "simples_upload"
+  },
+  {
+    "id": "moza_ja_compensa",
+    "titulo": "MOZA Já COMPENSA",
+    "descricao": "Campanha de Cashback",
+    "script": "scripts/Moza Já Compensa.py",
+    "modo_data": "upload_ficheiro"
+  },
+  {
+    "id": "saldos_contas_bd",
+    "titulo": "Saldos de Contas na Base de Dados",
+    "descricao": "Insere a data de análise",
+    "script": "scripts/Saldos Contas BD.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "comissoes_cartoes",
+    "titulo": "Comissões de Cartões Moza",
+    "descricao": "Insere as datas de análise",
+    "script": "scripts/Comissões Cartões.py",
+    "modo_data": "periodo"
+  },
+  {
+    "id": "dp_dop",
+    "titulo": "Deposito a Prazo DOP",
+    "descricao": "Deposito a Prazo DOP",
+    "script": "scripts/Deposito a Prazo DOP.py",
+    "modo_data": "sem_filtros"
+  },
+  {
+    "id": "creditos_do_relacionada",
+    "titulo": "Créditos e DO Relacionada",
+    "descricao": "Créditos e DO Relacionada",
+    "script": "scripts/Créditos e DO relacionada.py",
+    "modo_data": "sem_filtros"
+  },
+  {
+    "id": "extracto_users_1067_1879_1884",
+    "titulo": "Extracto Users 1067-1879-1884",
+    "descricao": "Extracto",
+    "script": "scripts/Extracto_Users_1067_1879_1884.py",
+    "modo_data": "periodo"
+  },
+  {
+    "id": "downgrade_private",
+    "titulo": "DownGrade de Clientes Private",
+    "descricao": "DownGrade",
+    "script": "scripts/DownGrade de Clientes Private.py",
+    "modo_data": "periodo"
+  },
+  {
+    "id": "mapa_depositos_distrito",
+    "titulo": "Mapa de Depósitos por Genero Sector e Distrito",
+    "descricao": "Inserir o último dia do mês desejado",
+    "script": "scripts/Mapa de Depósitos por Genero Sector e Distrito.py",
+    "modo_data": "simples"
+  },
+  {
+    "id": "contas_encerradas",
+    "titulo": "Contas Encerradas",
+    "descricao": "Contas Encerradas",
+    "script": "scripts/Contas Encerradas.py",
+    "modo_data": "periodo"
+  },
+  {
+    "id": "estornos_un",
+    "titulo": "Estornos nas Unidades de Négocio",
+    "descricao": "Estornos nas UN",
+    "script": "scripts/Estornos na UN.py",
+    "modo_data": "periodo"
+  }  
+]

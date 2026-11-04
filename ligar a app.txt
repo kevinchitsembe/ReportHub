@@ -1,0 +1,17 @@
+//streamlit
+cd C:\Users\sum001781\Desktop\projeto
+venv\Scripts\activate
+streamlit run app.py --server.port 8502 --server.address 0.0.0.0
+
+//celery
+cd C:\Users\sum001781\Desktop\projeto
+venv\Scripts\activate
+celery -A tasks worker --loglevel=info --concurrency=10 -P solo
+celery -A tasks worker --loglevel=info -P solo -n worker1@SVDCPAPQ16
+celery -A tasks worker --loglevel=info -P solo -n worker10@SVDCPAPQ16
+
+
+
+celery -A tasks worker --loglevel=info -P solo -n worker1@SVDRSBID01
+python -m celery -A tasks worker --loglevel=info -P solo -n worker1@SVDRSBID01
+

@@ -1,0 +1,157 @@
+import oracledb
+import pandas as pd
+from datetime import datetime
+import os
+import sys
+
+
+# ── Argumentos recebidos da app ──────────────────────────────
+# sys.argv[1] → data_inicio (YYYYMMDD)
+# sys.argv[2] → data_fim    (YYYYMMDD)
+# sys.argv[3] → pasta de destino (temp/)
+
+if len(sys.argv) < 4:
+    print("❌ Uso: python script.py DATA_INICIO DATA_FIM PASTA_DESTINO")
+    sys.exit(1)
+
+data_inicio   = sys.argv[1]
+data_fim      = sys.argv[2]
+pasta_destino = sys.argv[3]
+
+# Validar formato das datas
+try:
+    datetime.strptime(data_inicio, "%Y%m%d")
+    datetime.strptime(data_fim,    "%Y%m%d")
+except ValueError:
+    print(f"❌ Datas inválidas: '{data_inicio}' / '{data_fim}'. Use o formato YYYYMMDD.")
+    sys.exit(1)
+
+print(f"📅 Período: {data_inicio} → {data_fim}")
+
+
+# ── Conexão Oracle ────────────────────────────────────────────
+def connect_to_oracle():
+    try:
+        dsn = oracledb.makedsn("dbm01vm01-scan1", 1521, service_name="obdxpprd1")
+        connection = oracledb.connect(user="M001781", password="9XL#P5mR2", dsn=dsn)
+        print("✅ Conexão com Oracle estabelecida com sucesso!")
+        return connection
+    except oracledb.Error as e:
+        print(f"❌ Erro ao conectar ao Oracle: {e}")
+        return None
+
+
+# ── Query ─────────────────────────────────────────────────────
+def execute_query(connection, data_inicio, data_fim):
+    base_query = """
+    SELECT * FROM (
+        SELECT
+            UP.U_NAME,
+            UR.PARTY_ID,
+            UP.TITLE,
+            UP.MOBILENO,
+            UP.FIRSTNAME,
+            UP.LASTNAME,
+            UP.EMAIL,
+            FL.first_day,
+            TO_CHAR(UP.LAST_LOGGEDIN_DATETIME, 'YY.MM.DD HH24:MI:SS') LAST_LOGGEDIN_DATE
+        FROM OBDXPPRD.DIGX_UM_USERPROFILE UP
+        JOIN OBDXPPRD.DIGX_UM_USERPARTY_RELATION UR
+            ON UP.U_NAME = UR.USER_ID
+        JOIN (
+            SELECT USER_ID,
+                   USER_TYPE,
+                   MIN(TRUNC(CREATION_DATE)) AS first_day
+            FROM OBDXPPRD.DIGX_AL_AUDIT_LOGGING
+            WHERE ACTIVITY = 'Login Token Generation'
+              AND STATUS = 'SUCCESS'
+              AND USER_TYPE = 'corporateuser'
+            GROUP BY USER_ID, USER_TYPE
+        ) FL ON UP.U_NAME = FL.USER_ID
+        WHERE FL.first_day BETWEEN TO_DATE(:start_date, 'YYYYMMDD')
+                                AND TO_DATE(:end_date,   'YYYYMMDD')
+        ORDER BY FL.first_day
+    ) sub1
+    ORDER BY 8 DESC
+    """
+
+    try:
+        df = pd.read_sql_query(
+            base_query,
+            connection,
+            params={"start_date": data_inicio, "end_date": data_fim}
+        )
+        print(f"📋 {len(df)} registo(s) encontrado(s).")
+        return df
+
+    except Exception as e:
+        print(f"❌ Erro ao executar query: {e}")
+        return None
+
+
+# ── Guardar Excel ─────────────────────────────────────────────
+def save_to_excel(df, data_fim, pasta_destino):
+    script_name = os.path.splitext(os.path.basename(sys.argv[0]))[0]
+    filename    = f"{script_name}_{data_fim}.xlsx"
+    caminho     = os.path.join(pasta_destino, filename)
+
+    try:
+        with pd.ExcelWriter(caminho, engine='openpyxl') as writer:
+            df.to_excel(writer, sheet_name='Dados', index=False)
+
+            worksheet = writer.sheets['Dados']
+            for col_idx, column in enumerate(df.columns):
+                try:
+                    col_width = max(
+                        df[column].astype(str).map(len).max(),
+                        len(column)
+                    )
+                except Exception:
+                    col_width = len(column)
+
+                col_letter = (
+                    chr(65 + col_idx)
+                    if col_idx < 26
+                    else chr(64 + col_idx // 26) + chr(65 + col_idx % 26)
+                )
+                worksheet.column_dimensions[col_letter].width = min(col_width + 2, 50)
+
+        print(f"✅ Ficheiro guardado em: {caminho}")
+
+    except Exception as e:
+        print(f"❌ Erro ao guardar ficheiro Excel: {e}")
+        sys.exit(1)
+
+
+# ── Main ──────────────────────────────────────────────────────
+connection = connect_to_oracle()
+if not connection:
+    sys.exit(1)
+
+try:
+    print("\n⏳ A executar consulta...")
+    df = execute_query(connection, data_inicio, data_fim)
+
+    # Se não houver dados, gerar linha com N/A
+    dados_vazios = df is None or df.empty
+    if dados_vazios:
+        print("⚠️ A consulta não retornou resultados. O relatório será gerado com N/A.")
+        colunas = [
+            'U_NAME', 'PARTY_ID', 'TITLE', 'MOBILENO',
+            'FIRSTNAME', 'LASTNAME', 'EMAIL', 'FIRST_DAY', 'LAST_LOGGEDIN_DATE'
+        ]
+        df = pd.DataFrame([{col: 'N/A' for col in colunas}])
+
+    # Converter coluna de data (só se não for N/A)
+    if not dados_vazios and 'FIRST_DAY' in df.columns:
+        df['FIRST_DAY'] = pd.to_datetime(df['FIRST_DAY']).dt.strftime('%Y-%m-%d')
+
+    save_to_excel(df, data_fim, pasta_destino)
+
+except Exception as e:
+    print(f"❌ Erro inesperado: {e}")
+    sys.exit(1)
+
+finally:
+    connection.close()
+    print("🔒 Conexão fechada.")
